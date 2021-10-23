@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -36,4 +39,31 @@ section{
     background-image: url(Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-title{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 5px;
+}
+.experience-area{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#tribal-chief{
+    border-left: 8px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+#big-dog{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, rgb(121, 121, 219));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: rgb(63, 61, 61);
 }
